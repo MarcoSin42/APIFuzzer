@@ -27,7 +27,7 @@ if __name__ == "__main__":
     if (len(sys.argv) == 1):
         file = open("examplecurl.sh")
     else:
-        file = open(argv[1])
+        file = open(sys.argv[1])
 
 
     lines = file.readlines()
@@ -62,7 +62,24 @@ if __name__ == "__main__":
     body = buffer.getvalue()
     if c.getinfo(pycurl.HTTP_CODE) != 200:
         print("Something was required")
+        exit(-1)
     
     print(body.decode("utf-8"))
+
+    # If everything is okay, we can dump it
+    f = open("RequireStuff.txt", "w+")
+    f.write(url +"\n")
+    f.write("===== Headers ======= +\n")
+    for header in reqHeaders:
+        colonIdx = header.find(":")
+        field = header[:colonIdx]
+        value = header[colonIdx+1:]
+
+        f.write("{" + f"\"{field}\", \"{value}\"" +"},\n")
+    
+    f.write(" ======= Body ===== +\n")
+    f.write('"' + json.dumps(rmdJson) + '"')
+    f.close()
+
 
     
