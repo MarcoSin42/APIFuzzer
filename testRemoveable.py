@@ -10,7 +10,7 @@ from urllib.parse import urlencode
 from io import BytesIO
 
 def removeKeys(d: dict, keys_to_remove: list):
-    if isinstance(d, dict):
+    if type(d) == dict:
         return {k: removeKeys(v, keys_to_remove) for k, v in d.items() if k not in keys_to_remove}
     else:
         return d

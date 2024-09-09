@@ -57,13 +57,13 @@ def getKeys(d: dict) -> list:
     return out
 
 def removeKeys(d: dict, keys_to_remove: list):
-    if isinstance(d, dict):
+    if type(d) == dict:
         return {k: removeKeys(v, keys_to_remove) for k, v in d.items() if k not in keys_to_remove}
     else:
         return d
 
 def removeKey(d: dict, key_to_remove: str):
-    if isinstance(d, dict):
+    if type(d) == dict:
         return {k: removeKey(v, key_to_remove) for k, v in d.items() if k != key_to_remove}
     else:
         return d
