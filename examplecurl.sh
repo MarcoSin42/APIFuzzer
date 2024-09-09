@@ -1,0 +1,34 @@
+curl 'https://music.youtube.com/youtubei/v1/browse?prettyPrint=true' \
+  -H 'accept: */*' \
+  -H 'accept-language: en-GB,en-US;q=0.9,en;q=0.8,fr;q=0.7' \
+  -H 'authorization: SAPISIDHASH <EXAMPLE>' \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/json' \
+  -H 'cookie: YSC=cYjpf-PlGnM; VISITOR_INFO1_LIVE=yqimd8BvaKQ; VISITOR_PRIVACY_METADATA=CgJDQRIEGgAgMQ%3D%3D; wide=1; _gcl_au=1.1.519099147.1723371112; SID=g.a000nAgjk72IDlq18EygsgrIjH0v506nXbo8WEGO5w8HEh2avqT59E5fbDX-DIVhW7JDenFfcAACgYKAcASARcSFQHGX2MizTTCdjPAqyhJUHUvZht1_hoVAUF8yKrJx743Yeya2X7nm47sPgo00076; __Secure-1PSID=g.a000nAgjk72IDlq18EygsgrIjH0v506nXbo8WEGO5w8HEh2avqT52IfHANRg0euQ-Ww441uplQACgYKAUoSARcSFQHGX2Mioqdb9PyCJW_2Seuyro045RoVAUF8yKpMC8SJPCxOx4EtuRDXiGYy0076; __Secure-3PSID=g.a000nAgjk72IDlq18EygsgrIjH0v506nXbo8WEGO5w8HEh2avqT5r4Wp-sOQwijU93tDYHEo7QACgYKAVYSARcSFQHGX2MiParjyFSbq_QZAVVIeXjpxxoVAUF8yKroxHN0u94EpHDtR3HgaA-M0076; HSID=AB3IX850eAMHm4bHq; SSID=AKo1gQimy36mZMrqP; APISID=cv-V3xTCpFCYd9vj/AC4_uxr1rucrtQ_sX; SAPISID=tBtsT7qAqYVphucE/AGlvrPYu-xGB2eP_y; __Secure-1PAPISID=tBtsT7qAqYVphucE/AGlvrPYu-xGB2eP_y; __Secure-3PAPISID=tBtsT7qAqYVphucE/AGlvrPYu-xGB2eP_y; PREF=f6=480&volume=34&f7=100&tz=America.Regina&repeat=NONE&guide_collapsed=false&autoplay=true&f5=30000; __Secure-1PSIDTS=sidts-CjEBUFGoh13MAUI-dem5EhfAg13bUrCnG0wKHUULY0f3Fv9AoF2rH5dWDrSeCKMfA4Y4EAA; __Secure-3PSIDTS=sidts-CjEBUFGoh13MAUI-dem5EhfAg13bUrCnG0wKHUULY0f3Fv9AoF2rH5dWDrSeCKMfA4Y4EAA; LOGIN_INFO=AFmmF2swRgIhAMHKlr0JJCMUCRVQ_KRPT-a13FHE73FERYFbW1yTB3cCAiEAsmBVGRvQtWQ0TnhtN8QphrDIKej7_X0OlUiI7BiTR5c:QUQ3MjNmekg5T3pWWEVZZjBzY1MtZ2d6TlVrSWV1Ym5TM0pYbGRSY0FORTBSVlZaalYwWHVRSGs2clQwREZOYmRxVWhhdGJwSjNFaXhIVWNTVnJNY0NxU1BUWUplbG82cDNPQVZ0c2hqOHV6VEdlMjFTeW91X2d0dmcxYmpTaFlVQ3RQLTM2cUdQVXRuWlROR2VWbnB1NHNGV1dyYkxXZi1n; SIDCC=AKEyXzVGfEjOhNVzg_uAhmstqoKxz44o-Pcnxt9El4cBRUtA3VKqF8vsoLwAn43Joi-2wTNlFiI; __Secure-1PSIDCC=AKEyXzUq5RbOVzCGO2xeAE7l_AkIPx06NYWJfryuGYzE0z5O5aCg13MwxSRjq5b6sAgySJVg50yj; __Secure-3PSIDCC=AKEyXzUZ6K83wcCBrEXCycI6VA46kwDJdTo07OUWBIRCRRRPkDK5x_w-ZVaBTJByafzIk3CCp7E; ST-ic8jei=csn=L8OI5P_lN2pzci8j&itct=CPUEEKCzAhgAIhMIvoTkweaxiAMViZblBx2AyzBo' \
+  -H 'origin: https://music.youtube.com' \
+  -H 'pragma: no-cache' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://music.youtube.com/' \
+  -H 'sec-ch-ua: "Chromium";v="128", "Not;A=Brand";v="24", "Google Chrome";v="128"' \
+  -H 'sec-ch-ua-arch: "x86"' \
+  -H 'sec-ch-ua-bitness: "64"' \
+  -H 'sec-ch-ua-form-factors: "Desktop"' \
+  -H 'sec-ch-ua-full-version: "128.0.6613.113"' \
+  -H 'sec-ch-ua-full-version-list: "Chromium";v="128.0.6613.113", "Not;A=Brand";v="24.0.0.0", "Google Chrome";v="128.0.6613.113"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-model: ""' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'sec-ch-ua-platform-version: "6.10.8"' \
+  -H 'sec-ch-ua-wow64: ?0' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: same-origin' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36' \
+  -H 'x-client-data: CJe2yQEIpLbJAQiJksoBCKmdygEIgfrKAQiSocsBCIegzQEIrJ7OAQjwqc4BCOWvzgEIv7bOAQi8uc4BCNO+zgEIzL/OARjAy8wBGMCuzgEYnLHOAQ==' \
+  -H 'x-goog-authuser: 0' \
+  -H 'x-goog-visitor-id: Cgt5cWltZDhCdmFLUSjhkfO2BjIKCgJDQRIEGgAgMQ%3D%3D' \
+  -H 'x-origin: https://music.youtube.com' \
+  -H 'x-youtube-bootstrap-logged-in: true' \
+  -H 'x-youtube-client-name: 67' \
+  -H 'x-youtube-client-version: 1.20240904.01.01' \
+  --data-raw '{"context":{"client":{"hl":"en","gl":"CA","remoteHost":"YOUR IP HERE","deviceMake":"","deviceModel":"","visitorData":"Cgt5cWltZDhCdmFLUSjhkfO2BjIKCgJDQRIEGgAgMQ%3D%3D","userAgent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36,gzip(gfe)","clientName":"WEB_REMIX","clientVersion":"1.20240904.01.01","osName":"X11","osVersion":"","originalUrl":"https://music.youtube.com/","platform":"DESKTOP","clientFormFactor":"UNKNOWN_FORM_FACTOR","configInfo":{"appInstallData":"COGR87YGEImnsQUQ2KKxBRCI468FEN3o_hIQgcOxBRDCxf8SEIXDsQUQyfevBRDH5rAFEKKBsAUQiqGxBRCmkrEFEMT1sAUQjb6xBRCZmLEFEIa0sQUQ9MCxBRCd0LAFEKrYsAUQ3q2xBRCWo7EFEO_NsAUQvL6xBRCFp7EFEKKdsQUQ7KixBRC9mbAFENbdsAUQqJqwBRDr6P4SEJihsQUQlImxBRDqw68FEKiSsQUQq6mxBRCYi7EFEOXKsAUQlpWwBRDZya8FEK7BsQUQ-KuxBRC-irAFEL22rgUQyeawBRCNlLEFEKaTsQUQkq6xBRDwwLEFEPOisQUQ8JywBRDT4a8FENCNsAUQ4riwBRC58rAFEPSrsAUQ0K-xBRDrmbEFEMaksQUQ49GwBRD2hrEFEMzfrgUQlP6wBRC36v4SEIfDsQUQ9quwBRC3768FELDusAUQiIewBRDgq7EFEKiosQUqHENBTVNEeFVNb0wyd0ROSGtCcnE1aHdvZEJ3PT0%3D","coldConfigData":"COGR87YGGjJBT2pGb3gwWE9sdlFrTkcxbnZqZjNJSlpJdnFCMTFxS2FYU01FaUdwenYzU2RtNHZiQSIyQU9qRm94MW5hZzFtVjNrSHRrem5UVXhSSks1N09vWktxNU1KLTd6Y3BVekRRa2hPTXc%3D","coldHashData":"COGR87YGEhM4MzcyMjg4Nzg1MDY2MDg0NzkyGOGR87YGMjJBT2pGb3gwWE9sdlFrTkcxbnZqZjNJSlpJdnFCMTFxS2FYU01FaUdwenYzU2RtNHZiQToyQU9qRm94MW5hZzFtVjNrSHRrem5UVXhSSks1N09vWktxNU1KLTd6Y3BVekRRa2hPTXc%3D","hotHashData":"COGR87YGEhM3MTk2MTQwODE2MDk3ODA1MjkzGOGR87YGMjJBT2pGb3gwWE9sdlFrTkcxbnZqZjNJSlpJdnFCMTFxS2FYU01FaUdwenYzU2RtNHZiQToyQU9qRm94MW5hZzFtVjNrSHRrem5UVXhSSks1N09vWktxNU1KLTd6Y3BVekRRa2hPTXc%3D"},"userInterfaceTheme":"USER_INTERFACE_THEME_DARK","timeZone":"America/Regina","browserName":"Chrome","browserVersion":"128.0.0.0","acceptHeader":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7","deviceExperimentId":"ChxOelF4TWpBeE9UazFOek13T0RBNE1qYzVNdz09EOGR87YGGOGR87YG","screenWidthPoints":617,"screenHeightPoints":592,"screenPixelDensity":2,"screenDensityFloat":1.5,"utcOffsetMinutes":-360,"musicAppInfo":{"pwaInstallabilityStatus":"PWA_INSTALLABILITY_STATUS_CAN_BE_INSTALLED","webDisplayMode":"WEB_DISPLAY_MODE_BROWSER","storeDigitalGoodsApiSupportStatus":{"playStoreDigitalGoodsApiSupportStatus":"DIGITAL_GOODS_API_SUPPORT_STATUS_UNSUPPORTED"}}},"user":{"lockedSafetyMode":false},"request":{"useSsl":true,"internalExperimentFlags":[],"consistencyTokenJars":[]},"clickTracking":{"clickTrackingParams":"CPUEEKCzAhgAIhMIvoTkweaxiAMViZblBx2AyzBo"},"adSignalsInfo":{"params":[{"key":"dt","value":"1725745341389"},{"key":"flash","value":"0"},{"key":"frm","value":"0"},{"key":"u_tz","value":"-360"},{"key":"u_his","value":"2"},{"key":"u_h","value":"1080"},{"key":"u_w","value":"1920"},{"key":"u_ah","value":"1080"},{"key":"u_aw","value":"1920"},{"key":"u_cd","value":"24"},{"key":"bc","value":"31"},{"key":"bih","value":"592"},{"key":"biw","value":"607"},{"key":"brdim","value":"0,0,0,0,1920,0,1892,1009,617,592"},{"key":"vis","value":"1"},{"key":"wgl","value":"true"},{"key":"ca_type","value":"image"}]}},"browseId":"VLPLFk-2zvjcx0ATnreTXEe6gKYxxisfAey0"}'
